@@ -2,7 +2,6 @@ body {
     font-size: 12pt;
     font-family: Tahoma;
     font-weight: bold;
-    margin: 3%;
     background-color: #d3e1e5;
 }
 
@@ -29,22 +28,10 @@ body {
     background-color: #ffffff;
 }
 
-.hdn {
-    display: none;
-}
-
-button {
-    font-family: Bubblegum;
-    font-style: italic;
-    color: #777777;
-    padding: .5em;
-    margin: .2em;
-}
-
-button:hover {
-    background-color: #888888;
-    color: #222222;
-    font-size: .7em;
+.disclaimer {
+    padding: 1em;
+    border-top: 0.5em solid #57878e;
+    margin-top: 2em;
 }
 
 /*code for page title*/
@@ -70,17 +57,13 @@ p {
     line-height: 150%;
 }
 
-a{
+.btn {
     display: block;
+    position: relative;
     text-decoration: none;
     color: #000000;
 }
 
-a:hover {
-    font-size: 1.1em;
-    color: #565241;
-    -webkit-transition: font-size 1s, color 2s;
-    -moz-transition: font-size 1s, color 2s;
-    -o-transition: font-size 1s, color 2s;
-    transition: font-size 1s, color 2s;
+.btn:hover {
+    font-style: italic;
 }
