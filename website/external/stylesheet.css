@@ -64,6 +64,11 @@ p {
     color: #000000;
 }
 
+.choice {
+    width: 2em;
+    margin: auto;
+}
+
 .btn:hover {
     font-style: italic;
 }
