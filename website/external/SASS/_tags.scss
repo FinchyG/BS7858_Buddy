@@ -1,0 +1,60 @@
+h1 {
+    @extend %header;
+    display: inline-block;
+    font-size: 4em;
+    padding-left: 0.8em;
+    margin-top: -0.02em;
+    margin-bottom: -0.02em;
+}
+
+h2 {
+    @extend %header;
+    font-size: 2em;
+    padding: 0.5em;
+    margin-bottom: -0.5em;
+}
+
+img {
+    width: 4em;
+    height: 6em;
+    padding-left: 0.5em;
+    margin-bottom: -0.7em;
+}
+
+div {
+    @extend %box-shadow;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 0.5em;
+}
+
+p {
+    font-family: $regular_font;
+    font-weight: bold;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+        
+    &:hover {
+        font-style: italic;
+        cursor: pointer;
+    }
+}
+
+button {
+    @extend %box-shadow;
+    @extend %header;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 10%;
+    margin: 2em auto;
+
+    &:hover {
+        font-style: italic;
+        cursor: pointer;
+    }
+}

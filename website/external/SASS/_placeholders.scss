@@ -1,0 +1,10 @@
+%box-shadow {
+    box-shadow: 0.5em -0.5em 0.5em $shadow;
+    -webkit-box-shadow: -0.5em 0.5em 0.5em $shadow;
+    -moz-box-shadow: -0.5em 0.5em 0.5em $shadow;
+}
+
+%header {
+    font-family: $header_font;
+    text-shadow: $text-shadow;
+}

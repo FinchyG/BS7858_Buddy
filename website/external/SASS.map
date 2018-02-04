@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "SASS/SASS.css",
+	"sources": [
+		"SASS/SASS.scss",
+		"SASS/_fonts.scss",
+		"SASS/_variables.scss",
+		"SASS/_placeholders.scss",
+		"SASS/_classes.scss",
+		"SASS/_tags.scss"
+	],
+	"sourcesContent": [
+		"@import 'fonts';\r\n@import 'variables';\r\n@import 'placeholders';\r\n@import 'classes';\r\n@import 'tags';",
+		"@font-face {\r\n    font-family: 'goma_blockregular';\r\n    src: url('fonts/gomarice_goma_block-webfont.woff2') format('woff2'),\r\n         url('fonts/gomarice_goma_block-webfont.woff') format('woff');\r\n    font-weight: normal;\r\n    font-style: normal;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'print_clearlyregular';\r\n    src: url('fonts/print_clearly-webfont.woff2') format('woff2'),\r\n         url('fonts/print_clearly-webfont.woff') format('woff');\r\n    font-weight: normal;\r\n    font-style: normal;\r\n}",
+		"$header_font: 'goma_blockregular';\r\n\r\n$regular_font: 'print_clearlyregular';\r\n\r\n$shadow: rgb(57, 28, 160);\r\n\r\n$text-shadow: -0.05em 0.05em 0.05em $shadow;",
+		"%box-shadow {\r\n    box-shadow: 0.5em -0.5em 0.5em $shadow;\r\n    -webkit-box-shadow: -0.5em 0.5em 0.5em $shadow;\r\n    -moz-box-shadow: -0.5em 0.5em 0.5em $shadow;\r\n}\r\n\r\n%header {\r\n    font-family: $header_font;\r\n    text-shadow: $text-shadow;\r\n}",
+		".close_bottom {\r\n    margin-bottom: -0.5em;\r\n}\r\n\r\n.disclaimer {\r\n    font-weight: bolder;\r\n    text-decoration: underline;\r\n}\r\n\r\n.central {\r\n    width: 60%;\r\n    margin: 1em auto;\r\n}\r\n\r\n\r\n.narrow_central {\r\n    width: 30%;\r\n    margin: 1em auto; \r\n}\r\n\r\n.large_header {\r\n    font-size: 6em;\r\n}",
+		"h1 {\r\n    @extend %header;\r\n    display: inline-block;\r\n    font-size: 4em;\r\n    padding-left: 0.8em;\r\n    margin-top: -0.02em;\r\n    margin-bottom: -0.02em;\r\n}\r\n\r\nh2 {\r\n    @extend %header;\r\n    font-size: 2em;\r\n    padding: 0.5em;\r\n    margin-bottom: -0.5em;\r\n}\r\n\r\nimg {\r\n    width: 4em;\r\n    height: 6em;\r\n    padding-left: 0.5em;\r\n    margin-bottom: -0.7em;\r\n}\r\n\r\ndiv {\r\n    @extend %box-shadow;\r\n    width: 70%;\r\n    margin: auto;\r\n    padding-bottom: 0.5em;\r\n}\r\n\r\np {\r\n    font-family: $regular_font;\r\n    font-weight: bold;\r\n    padding: 1em;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: rgb(0, 0, 0);\r\n        \r\n    &:hover {\r\n        font-style: italic;\r\n        cursor: pointer;\r\n    }\r\n}\r\n\r\nbutton {\r\n    @extend %box-shadow;\r\n    @extend %header;\r\n    background: rgb(0, 0, 0);\r\n    color: rgb(255, 255, 255);\r\n    display: block;\r\n    width: 10%;\r\n    margin: 2em auto;\r\n\r\n    &:hover {\r\n        font-style: italic;\r\n        cursor: pointer;\r\n    }\r\n}"
+	],
+	"mappings": "ACAA,UAAU;EACN,WAAW,EAAE,mBAAoB;EACjC,GAAG,EAAE,8CAAG,CAA4C,eAAM,EACrD,6CAAG,CAA2C,cAAM;EACzD,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;AAGvB,UAAU;EACN,WAAW,EAAE,sBAAuB;EACpC,GAAG,EAAE,wCAAG,CAAsC,eAAM,EAC/C,uCAAG,CAAqC,cAAM;EACnD,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO;;;;AIUvB,AFvBA,GEuBG,EAuBH,AF9CA,ME8CM,CF9CM;EACR,UAAU,EAAE,KAAK,CAAE,MAAK,CAAC,KAAK,CDGzB,OAAG;ECFR,kBAAkB,EAAG,MAAK,CAAC,KAAK,CAAC,KAAK,CDEjC,OAAG;ECDR,eAAe,EAAG,MAAK,CAAC,KAAK,CAAC,KAAK,CDC9B,OAAG;CCAX;;;AEJD,AFMA,EENE,EASF,AFHA,EEGE,EAqCF,AFxCA,MEwCM,CFxCE;EACJ,WAAW,EDPD,mBAAmB;ECQ7B,WAAW,EDFA,OAAM,CAAC,MAAM,CAAC,MAAM,CAF1B,OAAG;CCKX;;;ACTD,AAAA,aAAa,CAAC;EACV,aAAa,EAAE,MAAO;CACzB;;;AAED,AAAA,WAAW,CAAC;EACR,WAAW,EAAE,MAAO;EACpB,eAAe,EAAE,SAAU;CAC9B;;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,QAAS;CACpB;;;AAGD,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,QAAS;CACpB;;;AAED,AAAA,aAAa,CAAC;EACV,SAAS,EAAE,GAAI;CAClB;;;ACtBD,AAAA,EAAE,CAAC;EAEC,OAAO,EAAE,YAAa;EACtB,SAAS,EAAE,GAAI;EACf,YAAY,EAAE,KAAM;EACpB,UAAU,EAAE,OAAQ;EACpB,aAAa,EAAE,OAAQ;CAC1B;;;AAED,AAAA,EAAE,CAAC;EAEC,SAAS,EAAE,GAAI;EACf,OAAO,EAAE,KAAM;EACf,aAAa,EAAE,MAAO;CACzB;;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,GAAI;EACZ,YAAY,EAAE,KAAM;EACpB,aAAa,EAAE,MAAO;CACzB;;;AAED,AAAA,GAAG,CAAC;EAEA,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,IAAK;EACb,cAAc,EAAE,KAAM;CACzB;;;AAED,AAAA,CAAC,CAAC;EACE,WAAW,EH7BA,sBAAsB;EG8BjC,WAAW,EAAE,IAAK;EAClB,OAAO,EAAE,GAAI;CAChB;;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAG;CAMb;;;AARD,AAAA,CAAC,AAII,MAAM,CAAC;EACJ,UAAU,EAAE,MAAO;EACnB,MAAM,EAAE,OAAQ;CACnB;;;AAGL,AAAA,MAAM,CAAC;EAGH,UAAU,EAAE,KAAG;EACf,KAAK,EAAE,KAAG;EACV,OAAO,EAAE,KAAM;EACf,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,QAAS;CAMpB;;;AAbD,AAAA,MAAM,AASD,MAAM,CAAC;EACJ,UAAU,EAAE,MAAO;EACnB,MAAM,EAAE,OAAQ;CACnB",
+	"names": []
+}

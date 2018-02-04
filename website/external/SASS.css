@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'goma_blockregular';
+  src: url("fonts/gomarice_goma_block-webfont.woff2") format("woff2"), url("fonts/gomarice_goma_block-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'print_clearlyregular';
+  src: url("fonts/print_clearly-webfont.woff2") format("woff2"), url("fonts/print_clearly-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_placeholders.scss */
+div, button {
+  box-shadow: 0.5em -0.5em 0.5em #391ca0;
+  -webkit-box-shadow: -0.5em 0.5em 0.5em #391ca0;
+  -moz-box-shadow: -0.5em 0.5em 0.5em #391ca0;
+}
+
+/* line 7, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_placeholders.scss */
+h1, h2, button {
+  font-family: "goma_blockregular";
+  text-shadow: -0.05em 0.05em 0.05em #391ca0;
+}
+
+/* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+.close_bottom {
+  margin-bottom: -0.5em;
+}
+
+/* line 5, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+.disclaimer {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* line 10, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+.central {
+  width: 60%;
+  margin: 1em auto;
+}
+
+/* line 16, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+.narrow_central {
+  width: 30%;
+  margin: 1em auto;
+}
+
+/* line 21, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+.large_header {
+  font-size: 6em;
+}
+
+/* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+h1 {
+  display: inline-block;
+  font-size: 4em;
+  padding-left: 0.8em;
+  margin-top: -0.02em;
+  margin-bottom: -0.02em;
+}
+
+/* line 10, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+h2 {
+  font-size: 2em;
+  padding: 0.5em;
+  margin-bottom: -0.5em;
+}
+
+/* line 17, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+img {
+  width: 4em;
+  height: 6em;
+  padding-left: 0.5em;
+  margin-bottom: -0.7em;
+}
+
+/* line 24, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+div {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 0.5em;
+}
+
+/* line 31, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+p {
+  font-family: "print_clearlyregular";
+  font-weight: bold;
+  padding: 1em;
+}
+
+/* line 37, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 41, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+a:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+/* line 47, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+button {
+  background: black;
+  color: white;
+  display: block;
+  width: 10%;
+  margin: 2em auto;
+}
+
+/* line 56, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+button:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=../SASS.map */
