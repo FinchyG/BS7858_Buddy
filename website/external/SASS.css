@@ -53,6 +53,20 @@ h1, h2, button {
   font-size: 6em;
 }
 
+@media (max-width: 830px) {
+  /* line 21, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+  .large_header {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 21, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_classes.scss */
+  .large_header {
+    font-size: 1em;
+  }
+}
+
 /* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 h1 {
   display: inline-block;
@@ -62,14 +76,43 @@ h1 {
   margin-bottom: -0.02em;
 }
 
-/* line 10, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+@media (max-width: 830px) {
+  /* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 1, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  h1 {
+    font-size: 1em;
+  }
+}
+
+/* line 19, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 h2 {
   font-size: 2em;
   padding: 0.5em;
   margin-bottom: -0.5em;
 }
 
-/* line 17, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+@media (max-width: 830px) {
+  /* line 19, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 19, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  h2 {
+    font-size: 0.5em;
+  }
+}
+
+/* line 34, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 img {
   width: 4em;
   height: 6em;
@@ -77,33 +120,58 @@ img {
   margin-bottom: -0.7em;
 }
 
-/* line 24, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+@media (max-width: 830px) {
+  /* line 34, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  img {
+    display: block;
+    margin: auto;
+    width: 2em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 34, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  img {
+    width: 0.7em;
+    height: 1em;
+  }
+}
+
+/* line 53, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 div {
   width: 70%;
   margin: auto;
   padding-bottom: 0.5em;
 }
 
-/* line 31, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+/* line 60, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 p {
   font-family: "print_clearlyregular";
   font-weight: bold;
   padding: 1em;
 }
 
-/* line 37, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+@media (max-width: 830px) {
+  /* line 60, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  p {
+    font-size: 0.75em;
+  }
+}
+
+/* line 70, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 a {
   text-decoration: none;
   color: black;
 }
 
-/* line 41, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+/* line 74, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 a:hover {
   font-style: italic;
   cursor: pointer;
 }
 
-/* line 47, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+/* line 80, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 button {
   background: black;
   color: white;
@@ -112,10 +180,28 @@ button {
   margin: 2em auto;
 }
 
-/* line 56, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+/* line 89, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
 button:hover {
   font-style: italic;
   cursor: pointer;
+}
+
+@media (max-width: 830px) {
+  /* line 80, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  button {
+    width: 7.5%;
+    font-size: 0.75em;
+    margin: 0.75em auto;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 80, C:/Users/lagau/Documents/GitHub/BS7858_Buddy/website/external/SASS/_tags.scss */
+  button {
+    width: 2.5%;
+    margin: 0.25em auto;
+    font-size: 0.2em;
+  }
 }
 
 /*# sourceMappingURL=../SASS.map */

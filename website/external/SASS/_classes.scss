@@ -20,4 +20,12 @@
 
 .large_header {
     font-size: 6em;
+
+    @media (max-width: $tablet_width) {
+        font-size: 3em;
+    }
+
+    @media (max-width: $phone_width) {
+        font-size: 1em;
+    }
 }
